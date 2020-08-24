@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css">
+  <link rel="stylesheet" href="./plugins/slick-1.8.1/slick.css">
+  <link rel="stylesheet" href="./plugins/fancybox-master/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./plugins/aos-animation/aos.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/style.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/settings.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style type="text/css">
+    .header-box{
+      padding-left: 26%;padding-right: 15%;
+      padding-top: 100px;
+    }
+    .imbox{
+      margin-top: 100px;margin-left: 15%;margin-right: 15%
+    }
+    .block-content{
+      line-height: 1.6;padding: 30px
+    }
+    .h-blog{
+      line-height: 1.3;font-size: 55px;color: black;
+    }
+    .image-box{
+      padding-left: 12%;padding-top: 13px
+    }
+    .image-blog{
+      width: 100%;height: 500px;box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);border-radius: 0px
+    }
+    .author-n{
+      display: inline-block;font-size: 25px
+    }
+    .author-i{
+      margin-right: 10px;position: relative;top: -3px
+    }
+    .info-blog{
+      display: inline-block;margin-left: 10px;font-size: 20px
+    }
+    .content-blog{
+      font-size: 18px;line-height: 1.8;color: black
+    }
+    .content-box{
+      margin-top: 100px;margin: 100px
+    }
+    @media only screen and (max-width: 700px) {
+      .header-box{
+        padding: 50px 20px;
+      }
+      .h-blog{
+        font-size: 30px
+      }
+      .author-i{
+        max-width: 30px;
+        margin-left: 5px !important;
+        margin-right: 3px !important;
+      }
+      .image-box{
+        padding-left: 5%
+      }
+      .author-n{
+        font-size: 16px
+      }
+      .info-blog{
+        font-size: 14px;
+      }
+      .imbox{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .image-blog{
+        height: 300px
+      }
+      .content-box{
+        margin: 13px;
+        padding-top: 70px
+      }
+      .content-blog{
+        font-size: 15px;
+        text-align: justify;
+      }
+      .block-content{
+        padding: 10px;
+        font-size: 24px
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-wrapper">
+<!-- Header Starts -->
+  <header class="site-header position-relative">
+        <div class="container">
+            <div class="row justify-content-center align-items-center position-relative">
+                <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
+                  <!-- Brand Logo -->
+                    <div class="brand-logo">
+                        <a href=""><img src="image/logoaisc.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-lg-2 col-xl-2 d-none d-sm-block order-lg-3">
+                    <div class="header-btns justify-content-end">
+                        <a href="#" class="btn btn-link">Sign In</a>
+                    </div>
+                </div>
+                <!-- Menu Block -->
+                <div class="col-sm-1 col-6 col-lg-6 col-xl-6 offset-lg-2  position-static order-lg-2">
+                  <div class="main-navigation">
+                      <ul class="main-menu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item "><a href="blog.html">Blog</a></li>
+                          <li class="menu-item has-dropdown">
+                              <a href="#features">Course</a>
+                                  <ul class="menu-dropdown">
+                                      <li class="single-item">
+                                          <a href="course.html">
+                                          <h3>Pengenalan Komputer</h3> 
+                                        
+                                          </a>
+                                      </li>
+                                      <li class="single-item">
+                                          <a href="course2.html">
+                                              <h3>Microsoft Office</h3>
+                                          </a> 
+                                      </li>
+                                  </ul>
+                              </li>
+                            <li class="menu-item "><a href="">About</a></li>
+                          </ul>
+                  </div>
+                    <div class="mobile-menu"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="shape-holder header-shape" data-aos="fade-down" data-aos-once="true"><img src="image/header-shape.svg" alt=""></div>
+  </header>
+
+  <section>
+    <div class="header-box">
+      <h1 class="h-blog">Manfaat Belajar Microsoft Office</h1>
+      <div class="image-box">
+        <h5 class="author-n">Prayogi Notonegoro</h5><p class="info-blog">Agustus 09,  • 8 min read</p>
+      </div>
+    </div>
+    <div class="imbox">
+      <img src="image/t4-card-1.png" class="image-blog">
+      <div class="content-box">
+        <p class="content-blog">
+             Perkembangan teknologi yang terjadi saat ini telah banyak menunjukkan kemajuan yang sangat luar
+          biasa. Ada banyak hal dari sektor kehidupan yang telah memanfaatkan keberadaan teknologi. Salah
+          satu contoh perkembangan teknologi yang dapat memudahkan urusan orang banyak adalah adanya
+          aplikasi Microsoft Office.
+          <br><br>
+          Microsoft Office merupakan salah satu teknologi aplikatif dunia modern
+          yang membuat banyak pekerja kantoran terbantu dalam menjalankan tugasnya. Tanpa keterampilan
+          Microsoft Office yang baik, mereka tidak akan pernah bisa menyelesaikan tugas yang dibebankan
+          dengan efektif. Namun, selain membantu para pekerja, fungsi dari Microsoft Office ini juga sangat
+          dibutuhkan oleh para calon pelamar kerja. Hal ini dikarenakan ketika melamar pekerjaan, maka
+          merekan membutuhkan surat lamaran. Nah, disinilah fungsi dari Microsoft ini digunakan.
+          <br><br>
+          Pada umumnya, para pelamar kerja menggunakan Microsoft Office ini untuk membuat surat lamaran.
+          Oleh karena itu, Microsoft Office bisa dikatakan sebagai salah satu aplikasi yang sangat membantu
+          dalam kehidupan.          
+          <br><br>
+          Microsoft Office terdapat tiga komponen utama yang bisa Anda manfaatkan keberadaannya,
+          yaitu Ms. Word, Ms. Excel dan juga Ms. PowerPoint. Ms. Word merupakan fitur dari Microsoft yang
+          biasanya digunakan untuk membuat, melihat atau mengedit suatu dokumen. Ms. Excel merupakan
+          fitur yang digunakan untuk mengolah data yang berupa angka. Sementara itu, Ms. Powerpoint
+          adalah fitur Microsoft yang digunakan untuk membuat slide PowerPoint yang biasanya digunakan
+          pada setiap presentasi atau rapat.
+        </p>
+          <h3 class="block-content">
+          Berikut ini beberapa keuntungan memiliki keterampilan Microsoft Office bagi Anda yang akan
+          melamar pekerjaan:          
+          </h3><br><br>
+
+          <td><h3><i>CV (Curriculum Vitae) Lebih Rapi</i></h3></td>
+        
+          <p class="content-blog">
+          <br>
+          Dengan menguasasi Microsoft Office khusus nya Microsoft Word, maka Anda dapat membuat CV atau daftar
+          riwayat hidup untuk melamar pekerjaan Anda sendiri. Anda sudah tidak perlu lagi mengeluarkan
+          biaya untuk jasa pembuatan CV, karena Anda bisa membuatnya sendiri dengan desain yang Anda
+          <br><br>
+          </p>
+
+          <td><h3><i>Memiliki Bekal dalam Bidang Entri Data dan Pembuatan Laporan</i></h3></td>
+          <p class="content-blog">
+            <br>
+          Memiliki keterampilan dalam menggunakan Ms. Office akan menjadi bekal yang sangat penting
+          dalam memasuki dunia kerja, khususnya pe kerjaan kantoran. Dalam perkantoran, pekerjaan Anda
+          tidak akan terlepas dari entri data dan pembuatan laporan kerja. Oleh karena itu, para calon
+          pegawai dituntut untuk memiliki kemampuan dalam menjalankan Ms. Office. Jika Anda telah
+          memiliki kemampuan dala m bidang tersebut, tentu saja Anda telah memiliki bekal dalam hal
+          menginput data serta pembuatan laporan kerja secara berkala
+          <br><br>
+        </p>
+
+        <td><h3><i>Memiliki Kesempatan Besar untuk Diterima dalam Perusahaan</i></h3></td>
+        <p class="content-blog">
+        <br>
+        Calon pegawai yang memiliki kemampuan dasar menguasai Ms. Office memiliki peluang yang lebih
+        besar untuk diterima di suatu perusahaan. Keterampilan dalam mengoperasikan Ms. Office akan
+        menjadi suatu nilai plus tersendiri bagi Anda dari pesaing calon pegawai yang lainnya. Orang yang
+        memiliki keterampilan ini akan dian ggap menguntungkan bagi perusahaan karena mampu
+        menyelesaikan pekerjaan kantornya dengan efektif dan tepat waktu.
+        <br>
+      </p>
+      <h3 class="block-content">
+        <i>
+        "Apabila Anda belum memiliki kemampuan untuk mengoperasikan Microsoft Office, maka Anda tidak perlu
+        Khawatir,karena telah tersedia jasa Kursus Microsoft Office yang bisa Anda ikuti. 
+        Dengan begitu,maka Anda bisa melamar pekerjaan dengan lebih percaya diri setelah menguasai keterampilan
+        dalam bidang komputer tersebut" </i>
+        </h3><br>
+      </div>
+    </div>
+  </section>
+
+ <!-- Testimonial Starts -->
+<section class="testimonial-section position-relative">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-7 col-xl-6">
+              <h2 class="">Blog AIS Computer</h2>
+          </div>
+      </div>
+      <div class="testimonial-slider-wrapper">
+          <div class="slider-btns"></div>
+          <div class="testimonial-slider">
+              <div class="single-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                  <div class="testimonial-card">
+                      <div class="image">
+                          <img src="./image/t4-card-1.png" alt="">
+                      </div>
+                      <div class="content">
+                          <h4>Manfaat Belajar Microsoft <br>Office</h4>
+                          <span class="d-block">by Revan Muhammad Dafa</span>
+                          <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a>   
+                      </div>
+                  </div>
+              </div>
+              <div class="single-slide" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200">
+                  <div class="testimonial-card">
+                      <div class="image">
+                          <img src="./image/t4-card-2.png" alt="">
+                      </div>
+                      <div class="content">
+                          <h4>Ingin Bersaing di dunia <br> Kerja??</h4>
+                          <span class="d-block">by Prayogi Notonegoro</span>
+                          <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a>   
+                      </div>
+                  </div>
+              </div>
+              <div class="single-slide"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400">
+                  <div class="testimonial-card">
+                      <div class="image">
+                          <img src="./image/t4-card-3.png" alt="">
+                      </div>
+                      <div class="content">
+                          <h4>Pentingnya Penggunaan Komputer di dunia Pendidikan</h4>
+                          <span class="d-block">by Citra Natalia</span>
+                          <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a>   
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+      </div>
+  </div>
+  <div class="shape-holder testimonial-shape" data-aos="zoom-in-left" data-aos-once="true"><img src="image/testimonial-shape.svg" alt=""></div>
+</section>
+
+  <div class="footer-section position-relative" style="padding-top: 50px !important">
+  <div class="container margin-decrese">
+      <div class="row mt--70">
+          <div class="col-lg-4 col-xl-4 col-sm-6 col-margin">
+              <span class="ft-title-sm">Menu</span>
+              <div class="row">
+                <div class="col-lg-5 col-4">
+                    <ul class="footer-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Course</a></li>
+                        <li><a href="">About</a></li>
+                      </ul>
+                </div>
+
+                <div class="col-lg-7 col-8">
+                    <ul class="footer-list">
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Help &amp; Support</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms &amp; Conditions</a></li>
+                      </ul>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-5 col-xl-5 col-margin">
+            <div class="ft-newsletter-box">
+                <span class="ft-title-sm">Subscribe to our newsletter</span>
+                <p>Subscribe to get lastest offers, news and events announcements. No spam in your inbox.</p>
+                <form action="">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter your email address">
+                    <button class="submit-btn"><i class="icon icon-tail-right"></i></button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div class="shape-holder footer-shape-1" data-aos="zoom-in-left" data-aos-once="true"><img src="image/cta-shape.svg" alt=""></div>
+  <div class="shape-holder footer-shape-2" data-aos="zoom-in-right" data-aos-once="true"><img src="image/footer-shape.svg" alt=""></div>
+</div>
+</div>
+
+
+  <!-- Vendor JS-->
+  <script src="./plugins/jquery/jquery.min.js"></script>
+  <script src="./plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+
+  <!-- Plugins JS -->
+  <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
+  <script src="./plugins/slick-1.8.1/slick.min.js"></script>
+  <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
+  <script src="./plugins/aos-animation/aos.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/active.js"></script>
+</body>
